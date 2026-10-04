@@ -7,7 +7,7 @@
 - 用户实机确认拖建空引用已经修复、当前没有问题，并授权新建公开GitHub仓库baiye-gift/BaiyeCompactTransit及提交现有代码。
 - 新增本项目CHANGELOG.md，迁入本站0.1.0—0.1.5与外观候选历史；tools/build-package.ps1改为读取项目内记录，独立克隆不再依赖父项目文件。.gitignore补齐本机审计、缓存、存档、日志及环境文件排除。README.md、docs/playtest.md和docs/development-plan.md更新独立仓库与实机反馈。
 - 集成范围为本站源码、真实程序集测试、可编辑SCML、原始图与KAnim资源及制作说明；不上传游戏程序集、存档、构建目录或安装备份，不更改父项目FusionPower的远程地址。
-- 提交前36项原生检查、15动画/110精灵资源检查通过；已创建公开仓库 https://github.com/baiye-gift/BaiyeCompactTransit，独立打包Release编译0错误、2个既有程序集引用警告，12个ZIP条目及逐文件哈希匹配。远程推送待完成。全量Unity分项矩阵、存档往返和多模组兼容没有逐项验证，本次用户反馈仅确认报错修复及当前运行。
+- 提交前36项原生检查、15动画/110精灵资源检查通过；已创建公开仓库 https://github.com/baiye-gift/BaiyeCompactTransit，独立打包Release编译0错误、2个既有程序集引用警告，12个ZIP条目及逐文件哈希匹配。首个源码提交 `2499862` 已推送main，远端SHA与本地一致；共159个源码/资源文件，暂存内容检查未发现本机产物、令牌/私钥模式或尾随空白，git diff --cached --check通过。直接从GitHub重新克隆到独立核验目录后，Release编译0错误、2个既有警告，12个ZIP条目及逐文件哈希检查通过，不依赖父项目文件。全量Unity分项矩阵、存档往返和多模组兼容没有逐项验证，本次用户反馈仅确认报错修复及当前运行。
 
 ## BaiyeCompactTransit 0.1.5 — 2026-10-04（建管空引用修复）
 

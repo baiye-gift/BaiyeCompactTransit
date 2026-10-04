@@ -68,6 +68,8 @@
 
 版本0.1.5，安装与独立复核结果见根CHANGELOG.md和dist/verification/installation.json；未改美术资源。
 
-## 独立仓库提交准备
+## 独立仓库提交
 
 2026-10-04 用户实机确认0.1.5空引用已经修复、没有问题，并要求提交GitHub；无对应仓库则新建，随后确认公开仓库baiye-gift/BaiyeCompactTransit。项目目录独立初始化Git，不改父项目FusionPower的origin。CHANGELOG.md迁入本项目作为持续记录，打包脚本改为读取本项目记录；README及playtest记录本次实机反馈，未将完整验收矩阵全部标为通过。上传源码、测试、SCML和图像，排除构建/备份/调查/自动审计结果与游戏程序集。
+
+公开仓库已创建，159个源码/资源文件首次提交2499862并推送main，远端SHA匹配。36项原生检查、资源检查及暂存内容检查通过；从GitHub重新克隆后可独立打包（0错误、2个既有警告、12个ZIP条目哈希匹配）。后续开发与记录使用本项目仓库和CHANGELOG.md。
