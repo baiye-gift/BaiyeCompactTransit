@@ -1,0 +1,12 @@
+bin/
+obj/
+dist/
+.research/
+premium-audit.json
+__pycache__/
+*.sav
+*.log
+*.user
+.env
+.env.*
+.vs/

@@ -1,0 +1,9 @@
+{
+  "source": "rounded-station-v5.png",
+  "body": { "width": 140, "height": 224, "x": 4.9, "y": -24 },
+  "meter": { "width": 40, "height": 8, "x": 3.2, "y": 156.5, "axis": "horizontal" },
+  "wax_meter": { "width": 40, "height": 6, "x": 3.2, "y": -21.5, "axis": "horizontal" },
+  "pole": { "width": 6, "height": 24, "x": 44.5, "y": 69 },
+  "screen": { "width": 20, "height": 16, "x": 62.7, "upY": 152.8, "downY": 141.7 },
+  "field": { "width": 6, "height": 24, "x": 46, "minY": 16, "maxY": 126, "alpha": 0.38 }
+}

@@ -1,0 +1,16 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": [],
+  "locale": "zh-CN / en (native game language)",
+  "requiredCommands": ["native", "assets"],
+  "commands": {
+    "native": "dotnet run --project tests/Native -c Release",
+    "assets": "python tools/verify-assets.py"
+  },
+  "evidence": {
+    "failurePaths": "tests/Native/Program.cs",
+    "nativeRuntimeLimit": "docs/development-plan.md"
+  }
+}
